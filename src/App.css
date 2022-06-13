@@ -1,35 +1,42 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+
+/* stylelint-disable font-family-name-quotes */
+
+/* stylelint-disable no-duplicate-selectors */
 body {
-  margin: 0;
-  box-sizing: border-box;
-  padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
   background-image: url('https://data.1freewallpapers.com/detail/space-stars-sky-night-astronomy.jpg');
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS' , 'Lucida Sans Unicode';
+  margin: 0;
+  padding: 0;
 }
 
-body{
+body {
   background-color: rgb(11, 11, 34);
   color: white;
   display: flex;
 }
 
 header {
-  text-align: center;
+  justify-content: center;
   margin-bottom: 50px;
   margin-top: 100px;
-  justify-content: center;
+  text-align: center;
 }
+
 .planet-card {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .planetImage {
-  width: 200px;
-  flex-direction: row;
   border-radius: 50%;
+  flex-direction: row;
   transition: 0.3s;
+  width: 180px;
 }
+
 .planetImage:hover {
   box-shadow: 0 0 25px whitesmoke;
 }
@@ -38,32 +45,33 @@ header {
   display: flex;
 }
 
-.missionsContainer{
+.missionsContainer {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.missionsCard{
-  width: 300px;
-  height: 200px;
+.missionsCard {
   border: solid 1px white;
+  height: 200px;
   margin-bottom: 20px;
   padding: 15px;
   transition: 0.3s;
+  width: 300px;
 }
-.missionsCard:hover{
+
+.missionsCard:hover {
   box-shadow: 0 0 25px whitesmoke;
 }
 
-h2{
+h2 {
+  font-size: x-large;
   text-align: center;
   text-shadow: 0 0 25px whitesmoke;
-  font-size: x-large;
 }
 
-h1{
+h1 {
+  font-size: xx-large;
   text-align: center;
   text-shadow: 0 0 25px whitesmoke;
-  font-size: xx-large;
 }
